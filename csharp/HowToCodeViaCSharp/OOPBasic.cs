@@ -1,0 +1,36 @@
+//类型和成员基础
+//yuhuanlong 2013.09.20
+//
+using System;
+public sealed class SomeType
+{
+	//嵌套类
+	private class SomeNestedType{}
+	//常量、只读字段和静态可读可写字段
+	private const Int32 SomeConstant =1;
+	private readonly Int32 SomeReadOnlyField =2;
+	private static Int32 SomeReadWriteField =3;
+	//类型构造器
+	static SomeType()
+	{}
+	//实例构造器
+	public SomeType(Int32 x){}
+	public SomeType(){}
+	//实例方法和静态方法
+	private String InstanceMethod(){return null;}
+	public static void Main(){}
+	//实例属性
+	public Int32 SomeProperty
+	{
+		get {return 0;}
+		set {}
+	}
+	//索引器
+public Int32 this[String s]
+	{
+		get {return 0;}
+		set {}
+	}
+	//实例事件
+	public event EventHandler SomeEvent;
+}
