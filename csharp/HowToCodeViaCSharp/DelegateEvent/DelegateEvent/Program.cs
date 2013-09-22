@@ -7,6 +7,7 @@
  * 要改变这种模板请点击 工具|选项|代码编写|编辑标准头文件
  */
 using System;
+using DelegateEvent;
 
 namespace DelegateEvent
 {
@@ -62,6 +63,15 @@ namespace DelegateEvent
 			
 			//gm.GreetPeople("Johns",gm.greetingdelegate);
 			gm.GreetPeople("Johns");
+			Publisher pub = new Publisher ();
+			Subscriber sub = new Subscriber();
+			pub.NumberChanged += new NumberChangedEventHandler(sub.OnNumberChanged);
+			pub.DoSomthing();
+			//pub.NumberChanged(100);
+			DelegateDemo.StaticDelegateDemo();
+			DelegateDemo.InstanceDelegateDemo();
+			DelegateDemo.ChainDelegateDemo1(new DelegateDemo());
+			DelegateDemo.ChainDelegateDemo2(new DelegateDemo());
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}

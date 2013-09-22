@@ -22,23 +22,25 @@ namespace DelegateEvent
 		}
 		private int count;
 		//声明委托变量
-		public NumberChangedEventHandler NumberChanged;
+		//public NumberChangedEventHandler NumberChanged;
 		//声明事件变量
-		//public event NumberChangedEventHandler NumberChanged; 
+		public event NumberChangedEventHandler NumberChanged; 
 		public void DoSomthing()
 		{
 			if (NumberChanged != null) 
 			{
 				count ++;
 				NumberChanged(count);
+				
 			}
 		}
-		public class Subscriber
+		
+	}
+	public class Subscriber
 		{
 			public void OnNumberChanged(int count)
 			{
 				Console.WriteLine("Subscriber notified :count = {0}",count);
 			}
 		}
-	}
 }
