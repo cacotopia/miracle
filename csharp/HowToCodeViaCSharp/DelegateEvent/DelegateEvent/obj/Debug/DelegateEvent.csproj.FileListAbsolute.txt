@@ -1,0 +1,5 @@
+F:\GitHub\miracle\miracle\csharp\HowToCodeViaCSharp\DelegateEvent\DelegateEvent\obj\Debug\DelegateEvent.csprojResolveAssemblyReference.cache
+F:\GitHub\miracle\miracle\csharp\HowToCodeViaCSharp\DelegateEvent\DelegateEvent\bin\Debug\DelegateEvent.exe
+F:\GitHub\miracle\miracle\csharp\HowToCodeViaCSharp\DelegateEvent\DelegateEvent\bin\Debug\DelegateEvent.pdb
+F:\GitHub\miracle\miracle\csharp\HowToCodeViaCSharp\DelegateEvent\DelegateEvent\obj\Debug\DelegateEvent.exe
+F:\GitHub\miracle\miracle\csharp\HowToCodeViaCSharp\DelegateEvent\DelegateEvent\obj\Debug\DelegateEvent.pdb

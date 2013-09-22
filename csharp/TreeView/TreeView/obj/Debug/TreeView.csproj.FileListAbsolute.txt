@@ -1,0 +1,5 @@
+F:\GitHub\miracle\miracle\csharp\TreeView\TreeView\bin\Debug\TreeView.exe
+F:\GitHub\miracle\miracle\csharp\TreeView\TreeView\bin\Debug\TreeView.pdb
+F:\GitHub\miracle\miracle\csharp\TreeView\TreeView\obj\Debug\TreeView.csprojResolveAssemblyReference.cache
+F:\GitHub\miracle\miracle\csharp\TreeView\TreeView\obj\Debug\TreeView.exe
+F:\GitHub\miracle\miracle\csharp\TreeView\TreeView\obj\Debug\TreeView.pdb
