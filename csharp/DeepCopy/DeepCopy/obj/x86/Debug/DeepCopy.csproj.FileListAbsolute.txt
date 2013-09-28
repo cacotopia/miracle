@@ -1,0 +1,5 @@
+D:\JigneshTest\DeepCopy\DeepCopy\bin\Debug\DeepCopy.exe
+D:\JigneshTest\DeepCopy\DeepCopy\bin\Debug\DeepCopy.pdb
+D:\JigneshTest\DeepCopy\DeepCopy\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\JigneshTest\DeepCopy\DeepCopy\obj\x86\Debug\DeepCopy.exe
+D:\JigneshTest\DeepCopy\DeepCopy\obj\x86\Debug\DeepCopy.pdb
