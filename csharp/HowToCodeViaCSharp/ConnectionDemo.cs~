@@ -1,0 +1,42 @@
+//.NetÊý¾Ý¿â±à³Ì
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Miracle 
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			String connectionString = "Data Source=WUBUNTU;Initial Catalog=CSE_DEPT;User Id=sa;Password =YuHuanLong;";
+			try 
+			{
+				SqlConnection conn = new SqlConnection(connectionString);
+				if (conn==null) 
+				{
+					Console.WriteLine("failed.");
+				}else 
+				{
+					Console.WriteLine("success");
+					if (conn.State != ConnectionState.Open)
+					{
+						conn.Open();
+					}
+					Console.WriteLine(conn.Database);
+					Console.WriteLine(conn.ConnectionString);
+					Console.WriteLine(conn.State.ToString());
+				}
+				if (conn.State != ConnectionState.Closed)
+				{
+					conn.Close();
+					Console.WriteLine(conn.State.ToString());
+				}
+			}catch(Exception e)
+			{
+				Console.WriteLine(e.Message);
+			}
+			
+		}
+	}
+}

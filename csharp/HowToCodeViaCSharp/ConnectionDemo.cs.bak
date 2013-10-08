@@ -1,0 +1,86 @@
+//.Net数据库编程
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Miracle 
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			String connectionString = "Data Source=WUBUNTU;Initial Catalog=CSE_DEPT;User Id=sa;Password =YuHuanLong;";
+			try 
+			{
+				SqlConnection conn = new SqlConnection(connectionString);
+				if (conn==null) 
+				{
+					Console.WriteLine("failed.");
+				}else 
+				{
+					Console.WriteLine("success");
+					if (conn.State != ConnectionState.Open)
+					{
+						conn.Open();
+					}
+					Console.WriteLine(conn.Database);
+					Console.WriteLine(conn.ConnectionString);
+					Console.WriteLine(conn.State.ToString());
+					Console.WriteLine("------------------------");
+					String cmdInsert = "INSERT INTO LogIn(user_name,pass_word) VALUES ('YuHuanLong','callme')";
+					String cmdSelect = "SELECT user_name,pass_word from  LogIn";
+					String cmdDelete = "DELETE FROM LogIn WHERE (user_name='YuHuanLong')";
+					String cmdUpdate = "UPDATE LogIn SET pass_word WHERE (user_name= 'YuHuanLong')";
+					
+					SqlCommand command = new SqlCommand();
+					SqlDataAdapter adapter;
+					DataSet result;
+					command.Connection= conn;
+					command.CommandType=CommandType.Text;
+				  command.CommandText = cmdSelect;
+			
+					//Int32 count =command.ExecuteNonQuery();
+					//Console.WriteLine(count);
+					//command.CommandText = cmdSelect;
+					SqlDataReader reader= command.ExecuteReader();
+					if (reader.HasRows ==true)
+					{
+						while(reader.Read())
+					{
+						Console.WriteLine(String.Format("{0}\t{1}",reader[0],reader[1]));
+					}
+				}else 
+				{
+					Console.WriteLine("No matched records found.");
+				}
+					
+					reader.Close();//除非将DataReader关闭，否则不能在该Connection对象上执行任何其他的操作
+					adapter = new SqlDataAdapter(cmdSelect,conn);
+					adapter.SelectCommand=command;
+					result = new DataSet();
+					result.Clear();
+					Int32 intValue = adapter.Fill(result);
+					if (intValue ==0) 
+					{
+						Console.WriteLine("No valid record found.");
+					}else 
+					{
+						Console.WriteLine(result.Tables.Count);
+					}
+					result.Dispose();
+					adapter.Dispose();
+					command.Dispose();
+				}
+				if (conn.State != ConnectionState.Closed)
+				{
+					conn.Close();
+					Console.WriteLine(conn.State.ToString());
+				}
+			}catch(Exception e)
+			{
+				Console.WriteLine(e.Message);
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,42 @@
+//DataTableDemo.cs
+//2013.10.08 
+using System;
+using System.Data;
+using System.Data.SqlClient;
+namespace Miracle
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			DataTable table = new DataTable("UserInfo");
+			
+			DataColumn column;
+			DataRow row;
+			
+			column = new DataColumn();
+			column.DataType= System.Type.GetType("System.Int32");
+			column.ColumnName= "UserID";
+			table.Columns.Add(column);
+			
+			column = new DataColumn();
+			column.DataType= System.Type.GetType("System.String");
+			column.ColumnName = "UserName";
+			table.Columns.Add(column);
+			for (int index =1;index<=10;index++)
+			{
+				row = table.NewRow();
+				
+				row["UserID"]= index;
+				row["Username"] = "MTC-"+ index;
+				table.Rows.Add(row);
+			}
+			for (int iLoop=0;iLoop < table.Rows.Count;iLoop++)
+			{
+				//DataRow currentRow = table.Rows[iLoop];
+				Console.WriteLine(String.Format("(UserID:{0}\tUserName:{1})",currentRow[0],currentRow[1]));
+			}
+		}
+	}
+}
+
