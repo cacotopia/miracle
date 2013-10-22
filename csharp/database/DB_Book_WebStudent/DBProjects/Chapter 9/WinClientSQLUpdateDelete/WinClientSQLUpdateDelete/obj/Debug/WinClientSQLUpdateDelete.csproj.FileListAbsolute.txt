@@ -1,0 +1,9 @@
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\bin\Debug\WinClientSQLUpdateDelete.exe.config
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Debug\WinClientSQLUpdateDelete.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Debug\WinClientSQLUpdateDelete.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Debug\WinClientSQLUpdateDelete.CourseForm.resources
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\bin\Debug\WinClientSQLUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\bin\Debug\WinClientSQLUpdateDelete.pdb
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Debug\WinClientSQLUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Debug\WinClientSQLUpdateDelete.pdb

@@ -1,0 +1,9 @@
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\obj\Release\LINQSQLQuery.FacultyForm.resources
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\obj\Release\LINQSQLQuery.Properties.Resources.resources
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\obj\Release\LINQSQLQuery.csproj.GenerateResource.Cache
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\bin\Release\LINQSQLQuery.exe.config
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\bin\Release\LINQSQLQuery.exe
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\bin\Release\LINQSQLQuery.pdb
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\obj\Release\LINQSQLQuery.exe
+C:\Book6\Chapter 7\LINQSQLQuery\LINQSQLQuery\obj\Release\LINQSQLQuery.pdb

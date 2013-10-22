@@ -1,0 +1,15 @@
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\bin\Release\SQLUpdateDeleteSP.exe.config
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\bin\Release\SQLUpdateDeleteSP.exe
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\bin\Release\SQLUpdateDeleteSP.pdb
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.CourseForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.FacultyForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.InsertFacultyForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.LogInForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.Properties.Resources.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.SelectionForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.SPForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.StudentForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.csproj.GenerateResource.Cache
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.exe
+C:\Book6\Chapter 7\SQLUpdateDeleteSP\SQLUpdateDeleteSP\obj\Release\SQLUpdateDeleteSP.pdb

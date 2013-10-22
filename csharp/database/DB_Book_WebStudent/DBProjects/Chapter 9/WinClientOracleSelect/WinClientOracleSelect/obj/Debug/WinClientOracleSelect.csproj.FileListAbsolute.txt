@@ -1,0 +1,9 @@
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\bin\Debug\WinClientOracleSelect.exe.config
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\bin\Debug\WinClientOracleSelect.exe
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\bin\Debug\WinClientOracleSelect.pdb
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Debug\WinClientOracleSelect.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Debug\WinClientOracleSelect.FacultyForm.resources
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Debug\WinClientOracleSelect.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Debug\WinClientOracleSelect.exe
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Debug\WinClientOracleSelect.pdb

@@ -1,0 +1,9 @@
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\bin\Debug\WinClientSQLSelect.exe.config
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\bin\Debug\WinClientSQLSelect.exe
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\bin\Debug\WinClientSQLSelect.pdb
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Debug\WinClientSQLSelect.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Debug\WinClientSQLSelect.FacultyForm.resources
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Debug\WinClientSQLSelect.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Debug\WinClientSQLSelect.exe
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Debug\WinClientSQLSelect.pdb

@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\DataSetSingleTableLINQ\DataSetSingleTableLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\DataSetSingleTableLINQ\DataSetSingleTableLINQ\bin\Debug\DataSetSingleTableLINQ.exe
+C:\Book6\Chapter 4\DataSetSingleTableLINQ\DataSetSingleTableLINQ\bin\Debug\DataSetSingleTableLINQ.pdb
+C:\Book6\Chapter 4\DataSetSingleTableLINQ\DataSetSingleTableLINQ\obj\Debug\DataSetSingleTableLINQ.exe
+C:\Book6\Chapter 4\DataSetSingleTableLINQ\DataSetSingleTableLINQ\obj\Debug\DataSetSingleTableLINQ.pdb

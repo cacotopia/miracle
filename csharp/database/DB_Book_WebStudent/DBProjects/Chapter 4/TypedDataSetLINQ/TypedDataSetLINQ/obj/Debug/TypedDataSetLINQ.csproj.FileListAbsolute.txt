@@ -1,0 +1,6 @@
+C:\Book6\Chapter 4\TypedDataSetLINQ\TypedDataSetLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\TypedDataSetLINQ\TypedDataSetLINQ\bin\Debug\TypedDataSetLINQ.exe.config
+C:\Book6\Chapter 4\TypedDataSetLINQ\TypedDataSetLINQ\bin\Debug\TypedDataSetLINQ.exe
+C:\Book6\Chapter 4\TypedDataSetLINQ\TypedDataSetLINQ\bin\Debug\TypedDataSetLINQ.pdb
+C:\Book6\Chapter 4\TypedDataSetLINQ\TypedDataSetLINQ\obj\Debug\TypedDataSetLINQ.exe
+C:\Book6\Chapter 4\TypedDataSetLINQ\TypedDataSetLINQ\obj\Debug\TypedDataSetLINQ.pdb

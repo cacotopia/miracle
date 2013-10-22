@@ -1,0 +1,15 @@
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\bin\Debug\SQLInsertRTObject.exe.config
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\bin\Debug\SQLInsertRTObject.exe
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\bin\Debug\SQLInsertRTObject.pdb
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.CourseForm.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.FacultyForm.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.InsertFacultyForm.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.LogInForm.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.Properties.Resources.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.SelectionForm.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.SPForm.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.StudentForm.resources
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.csproj.GenerateResource.Cache
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.exe
+C:\Book6\Chapter 6\SQLInsertRTObject\SQLInsertRTObject\obj\Debug\SQLInsertRTObject.pdb

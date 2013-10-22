@@ -1,0 +1,11 @@
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Release\WinClientSQLUpdateDelete.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Release\WinClientSQLUpdateDelete.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Release\WinClientSQLUpdateDelete.CourseForm.resources
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\bin\Release\WinClientSQLUpdateDelete.exe.config
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\bin\Release\WinClientSQLUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\bin\Release\WinClientSQLUpdateDelete.XmlSerializers.dll
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\bin\Release\WinClientSQLUpdateDelete.pdb
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Release\WinClientSQLUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Release\WinClientSQLUpdateDelete.pdb
+C:\Book6\Chapter 9\WinClientSQLUpdateDelete\WinClientSQLUpdateDelete\obj\Release\WinClientSQLUpdateDelete.XmlSerializers.dll

@@ -1,0 +1,9 @@
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\bin\Debug\WinClientOracleUpdateDelete.exe.config
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\bin\Debug\WinClientOracleUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\bin\Debug\WinClientOracleUpdateDelete.pdb
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Debug\WinClientOracleUpdateDelete.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Debug\WinClientOracleUpdateDelete.CourseForm.resources
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Debug\WinClientOracleUpdateDelete.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Debug\WinClientOracleUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Debug\WinClientOracleUpdateDelete.pdb

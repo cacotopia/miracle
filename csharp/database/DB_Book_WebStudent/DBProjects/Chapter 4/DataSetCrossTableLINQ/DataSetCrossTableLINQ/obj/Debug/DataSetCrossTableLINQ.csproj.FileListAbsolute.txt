@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\DataSetCrossTableLINQ\DataSetCrossTableLINQ\bin\Debug\DataSetCrossTableLINQ.exe
+C:\Book6\Chapter 4\DataSetCrossTableLINQ\DataSetCrossTableLINQ\bin\Debug\DataSetCrossTableLINQ.pdb
+C:\Book6\Chapter 4\DataSetCrossTableLINQ\DataSetCrossTableLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\DataSetCrossTableLINQ\DataSetCrossTableLINQ\obj\Debug\DataSetCrossTableLINQ.exe
+C:\Book6\Chapter 4\DataSetCrossTableLINQ\DataSetCrossTableLINQ\obj\Debug\DataSetCrossTableLINQ.pdb

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.ieee.org/9780521712354/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.ieee.org/9780521712354/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ieee.org/9780521712354/">
+      <s:element name="SetOracleInsertSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Enroll" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetOracleInsertSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetOracleInsertSPResult" type="tns:OracleInsertBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OracleInsertBase">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OracleInsertOK" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="OracleInsertError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FacultyID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Enrollment" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetOracleInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOracleInsertResult" type="tns:OracleInsertBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleInsertCourse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleInsertCourseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOracleInsertCourseResult" type="tns:OracleInsertBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OracleInsertDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Enroll" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OracleInsertDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OracleInsertDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SetOracleInsertSPSoapIn">
+    <wsdl:part name="parameters" element="tns:SetOracleInsertSP" />
+  </wsdl:message>
+  <wsdl:message name="SetOracleInsertSPSoapOut">
+    <wsdl:part name="parameters" element="tns:SetOracleInsertSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOracleInsert" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOracleInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleInsertCourseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOracleInsertCourse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleInsertCourseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOracleInsertCourseResponse" />
+  </wsdl:message>
+  <wsdl:message name="OracleInsertDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:OracleInsertDataSet" />
+  </wsdl:message>
+  <wsdl:message name="OracleInsertDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:OracleInsertDataSetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceOracleInsertSoap">
+    <wsdl:operation name="SetOracleInsertSP">
+      <wsdl:input message="tns:SetOracleInsertSPSoapIn" />
+      <wsdl:output message="tns:SetOracleInsertSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleInsert">
+      <wsdl:input message="tns:GetOracleInsertSoapIn" />
+      <wsdl:output message="tns:GetOracleInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleInsertCourse">
+      <wsdl:input message="tns:GetOracleInsertCourseSoapIn" />
+      <wsdl:output message="tns:GetOracleInsertCourseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OracleInsertDataSet">
+      <wsdl:input message="tns:OracleInsertDataSetSoapIn" />
+      <wsdl:output message="tns:OracleInsertDataSetSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceOracleInsertSoap" type="tns:WebServiceOracleInsertSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SetOracleInsertSP">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/SetOracleInsertSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleInsert">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetOracleInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleInsertCourse">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetOracleInsertCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OracleInsertDataSet">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/OracleInsertDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceOracleInsertSoap12" type="tns:WebServiceOracleInsertSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SetOracleInsertSP">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/SetOracleInsertSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleInsert">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetOracleInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleInsertCourse">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetOracleInsertCourse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OracleInsertDataSet">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/OracleInsertDataSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceOracleInsert">
+    <wsdl:port name="WebServiceOracleInsertSoap" binding="tns:WebServiceOracleInsertSoap">
+      <soap:address location="http://localhost:1218/WebServiceOracleInsert/WebServiceOracleInsert.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceOracleInsertSoap12" binding="tns:WebServiceOracleInsertSoap12">
+      <soap12:address location="http://localhost:1218/WebServiceOracleInsert/WebServiceOracleInsert.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

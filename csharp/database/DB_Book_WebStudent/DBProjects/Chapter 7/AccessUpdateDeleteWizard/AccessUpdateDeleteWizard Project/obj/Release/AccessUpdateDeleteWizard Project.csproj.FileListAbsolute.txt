@@ -1,0 +1,15 @@
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard_Project.CourseForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard_Project.FacultyForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard_Project.InsertFacultyForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard_Project.LogInForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard_Project.Properties.Resources.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard_Project.SelectionForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard_Project.StudentForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard Project.csproj.GenerateResource.Cache
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\bin\Release\CSE_DEPT.accdb
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\bin\Release\AccessUpdateDeleteWizard Project.exe.config
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\bin\Release\AccessUpdateDeleteWizard Project.exe
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\bin\Release\AccessUpdateDeleteWizard Project.pdb
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard Project.exe
+C:\Book6\Chapter 7\AccessUpdateDeleteWizard Solution\AccessUpdateDeleteWizard Project\obj\Release\AccessUpdateDeleteWizard Project.pdb

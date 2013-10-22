@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.ieee.org/9780521712354/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.ieee.org/9780521712354/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ieee.org/9780521712354/">
+      <s:element name="SQLUpdateSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Enroll" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SQLUpdateSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQLUpdateSPResult" type="tns:SQLBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SQLBase">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SQLOK" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="SQLError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FacultyID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Enrollment" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetSQLCourse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSQLCourseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSQLCourseResult" type="tns:SQLBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSQLCourseDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSQLCourseDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSQLCourseDetailResult" type="tns:SQLBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SQLDeleteSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SQLDeleteSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQLDeleteSPResult" type="tns:SQLBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SQLUpdateSPSoapIn">
+    <wsdl:part name="parameters" element="tns:SQLUpdateSP" />
+  </wsdl:message>
+  <wsdl:message name="SQLUpdateSPSoapOut">
+    <wsdl:part name="parameters" element="tns:SQLUpdateSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLCourseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSQLCourse" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLCourseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSQLCourseResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLCourseDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSQLCourseDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLCourseDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSQLCourseDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SQLDeleteSPSoapIn">
+    <wsdl:part name="parameters" element="tns:SQLDeleteSP" />
+  </wsdl:message>
+  <wsdl:message name="SQLDeleteSPSoapOut">
+    <wsdl:part name="parameters" element="tns:SQLDeleteSPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSQLUpdateDeleteSoap">
+    <wsdl:operation name="SQLUpdateSP">
+      <wsdl:input message="tns:SQLUpdateSPSoapIn" />
+      <wsdl:output message="tns:SQLUpdateSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLCourse">
+      <wsdl:input message="tns:GetSQLCourseSoapIn" />
+      <wsdl:output message="tns:GetSQLCourseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLCourseDetail">
+      <wsdl:input message="tns:GetSQLCourseDetailSoapIn" />
+      <wsdl:output message="tns:GetSQLCourseDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SQLDeleteSP">
+      <wsdl:input message="tns:SQLDeleteSPSoapIn" />
+      <wsdl:output message="tns:SQLDeleteSPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSQLUpdateDeleteSoap" type="tns:WebServiceSQLUpdateDeleteSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SQLUpdateSP">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/SQLUpdateSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLCourse">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetSQLCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLCourseDetail">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetSQLCourseDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SQLDeleteSP">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/SQLDeleteSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSQLUpdateDeleteSoap12" type="tns:WebServiceSQLUpdateDeleteSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SQLUpdateSP">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/SQLUpdateSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLCourse">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetSQLCourse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLCourseDetail">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetSQLCourseDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SQLDeleteSP">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/SQLDeleteSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceSQLUpdateDelete">
+    <wsdl:port name="WebServiceSQLUpdateDeleteSoap" binding="tns:WebServiceSQLUpdateDeleteSoap">
+      <soap:address location="http://localhost:1095/WebServiceSQLUpdateDelete/WebServiceSQLUpdateDelete.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSQLUpdateDeleteSoap12" binding="tns:WebServiceSQLUpdateDeleteSoap12">
+      <soap12:address location="http://localhost:1095/WebServiceSQLUpdateDelete/WebServiceSQLUpdateDelete.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

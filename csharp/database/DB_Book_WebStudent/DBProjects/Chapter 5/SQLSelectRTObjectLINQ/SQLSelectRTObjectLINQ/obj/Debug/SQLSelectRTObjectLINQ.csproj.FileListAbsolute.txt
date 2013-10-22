@@ -1,0 +1,12 @@
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\bin\Debug\SQLSelectRTObjectLINQ.exe
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\bin\Debug\SQLSelectRTObjectLINQ.pdb
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.CourseForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.FacultyForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.LogInForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.Properties.Resources.resources
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.Selection.resources
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.StudentForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.csproj.GenerateResource.Cache
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.exe
+C:\Book6\Chapter 5\SQLSelectRTObjectLINQ\SQLSelectRTObjectLINQ\obj\Debug\SQLSelectRTObjectLINQ.pdb

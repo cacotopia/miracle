@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\QueryMethodSyntax\QueryMethodSyntax\bin\Debug\QueryMethodSyntax.exe
+C:\Book6\Chapter 4\QueryMethodSyntax\QueryMethodSyntax\bin\Debug\QueryMethodSyntax.pdb
+C:\Book6\Chapter 4\QueryMethodSyntax\QueryMethodSyntax\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\QueryMethodSyntax\QueryMethodSyntax\obj\Debug\QueryMethodSyntax.exe
+C:\Book6\Chapter 4\QueryMethodSyntax\QueryMethodSyntax\obj\Debug\QueryMethodSyntax.pdb

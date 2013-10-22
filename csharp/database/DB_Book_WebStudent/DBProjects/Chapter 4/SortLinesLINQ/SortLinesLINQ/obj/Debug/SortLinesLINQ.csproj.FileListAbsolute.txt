@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\SortLinesLINQ\SortLinesLINQ\bin\Debug\SortLinesLINQ.exe
+C:\Book6\Chapter 4\SortLinesLINQ\SortLinesLINQ\bin\Debug\SortLinesLINQ.pdb
+C:\Book6\Chapter 4\SortLinesLINQ\SortLinesLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\SortLinesLINQ\SortLinesLINQ\obj\Debug\SortLinesLINQ.exe
+C:\Book6\Chapter 4\SortLinesLINQ\SortLinesLINQ\obj\Debug\SortLinesLINQ.pdb

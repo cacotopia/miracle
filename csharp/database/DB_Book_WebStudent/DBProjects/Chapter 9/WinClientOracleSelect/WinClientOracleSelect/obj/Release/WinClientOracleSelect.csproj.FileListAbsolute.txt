@@ -1,0 +1,11 @@
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\bin\Release\WinClientOracleSelect.exe.config
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\bin\Release\WinClientOracleSelect.exe
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\bin\Release\WinClientOracleSelect.XmlSerializers.dll
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\bin\Release\WinClientOracleSelect.pdb
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Release\WinClientOracleSelect.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Release\WinClientOracleSelect.FacultyForm.resources
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Release\WinClientOracleSelect.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Release\WinClientOracleSelect.exe
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Release\WinClientOracleSelect.pdb
+C:\Book6\Chapter 9\WinClientOracleSelect\WinClientOracleSelect\obj\Release\WinClientOracleSelect.XmlSerializers.dll

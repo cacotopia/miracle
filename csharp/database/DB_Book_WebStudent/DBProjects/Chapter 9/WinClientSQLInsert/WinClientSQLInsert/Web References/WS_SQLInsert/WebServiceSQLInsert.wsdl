@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.ieee.org/9780521712354/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.ieee.org/9780521712354/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ieee.org/9780521712354/">
+      <s:element name="SetSQLInsertSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Enroll" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetSQLInsertSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetSQLInsertSPResult" type="tns:SQLInsertBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SQLInsertBase">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SQLInsertOK" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="SQLInsertError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FacultyID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Enrollment" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetSQLInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSQLInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSQLInsertResult" type="tns:SQLInsertBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSQLInsertCourse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSQLInsertCourseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSQLInsertCourseResult" type="tns:SQLInsertBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SQLInsertDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Enroll" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SQLInsertDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQLInsertDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SetSQLInsertSPSoapIn">
+    <wsdl:part name="parameters" element="tns:SetSQLInsertSP" />
+  </wsdl:message>
+  <wsdl:message name="SetSQLInsertSPSoapOut">
+    <wsdl:part name="parameters" element="tns:SetSQLInsertSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSQLInsert" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSQLInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLInsertCourseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSQLInsertCourse" />
+  </wsdl:message>
+  <wsdl:message name="GetSQLInsertCourseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSQLInsertCourseResponse" />
+  </wsdl:message>
+  <wsdl:message name="SQLInsertDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:SQLInsertDataSet" />
+  </wsdl:message>
+  <wsdl:message name="SQLInsertDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:SQLInsertDataSetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSQLInsertSoap">
+    <wsdl:operation name="SetSQLInsertSP">
+      <wsdl:input message="tns:SetSQLInsertSPSoapIn" />
+      <wsdl:output message="tns:SetSQLInsertSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLInsert">
+      <wsdl:input message="tns:GetSQLInsertSoapIn" />
+      <wsdl:output message="tns:GetSQLInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLInsertCourse">
+      <wsdl:input message="tns:GetSQLInsertCourseSoapIn" />
+      <wsdl:output message="tns:GetSQLInsertCourseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SQLInsertDataSet">
+      <wsdl:input message="tns:SQLInsertDataSetSoapIn" />
+      <wsdl:output message="tns:SQLInsertDataSetSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSQLInsertSoap" type="tns:WebServiceSQLInsertSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SetSQLInsertSP">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/SetSQLInsertSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLInsert">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetSQLInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLInsertCourse">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetSQLInsertCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SQLInsertDataSet">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/SQLInsertDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSQLInsertSoap12" type="tns:WebServiceSQLInsertSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SetSQLInsertSP">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/SetSQLInsertSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLInsert">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetSQLInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSQLInsertCourse">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetSQLInsertCourse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SQLInsertDataSet">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/SQLInsertDataSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceSQLInsert">
+    <wsdl:port name="WebServiceSQLInsertSoap" binding="tns:WebServiceSQLInsertSoap">
+      <soap:address location="http://localhost:1904/WebServiceSQLInsert/WebServiceSQLInsert.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSQLInsertSoap12" binding="tns:WebServiceSQLInsertSoap12">
+      <soap12:address location="http://localhost:1904/WebServiceSQLInsert/WebServiceSQLInsert.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

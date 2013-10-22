@@ -1,0 +1,37 @@
+COURSE_ID,COURSE,CREDIT,CLASSROOM,SCHEDULE,ENROLLMENT,FACULTY_ID
+CSC-131B,Computers in Society,3,TC-114,M-W-F: 9:00-9:55 AM,20,B66750
+CSC-131C,Computers in Society,3,TC-109,T-H: 11:00-12:25 PM,25,A52990
+CSC-131D,Computers in Society,3,TC-119,M-W-F: 9:00-9:55 AM,30,B86590
+CSC-131E,Computers in Society,3,TC-301,M-W-F: 1:00-1:55 PM,25,B66750
+CSC-131F,Computers in Society,3,TC-109,T-H: 1:00-2:25 PM,32,A52990
+CSC-132B,Introduction to Programming,3,TC-302,T-H: 1:00-2:25 PM,21,B78880
+CSC-230,Algorithms & Structures,3,TC-301,M-W-F: 1:00-1:55 PM,20,A77587
+CSC-232A,Programming I,3,TC-305,T-H: 11:00-12:25 PM,28,B66750
+CSC-232B,Programming I,3,TC-303,T-H: 11:00-12:25 PM,17,A77587
+CSC-233A,Introduction to Algorithms,3,TC-302,M-W-F: 9:00-9:55 AM,18,H99118
+CSC-233B,Introduction to Algorithms,3,TC-302,M-W-F: 11:00-11:55 AM,19,K69880
+CSC-234A,Data Structure & Algorithms,3,TC-302,M-W-F: 9:00-9:55 AM,25,B78880
+CSC-234B,Data Structure & Algorithms,3,TC-114,T-H: 11:00-12:25 PM,15,J33486
+CSC-242,Programming II,3,TC-303,T-H: 1:00-2:25 PM,18,A52990
+CSC-320,Object Oriented Programming,3,TC-301,T-H: 1:00-2:25 PM,22,B66750
+CSC-333A,Computer Arch & Algorithms,3,TC-301,M-W-F: 10:00-10:55 AM,22,A77587
+CSC-432,Discrete Algorithms,3,TC-206,T-H: 11:00-12:25 PM,20,B86590
+CSC-439,Database Systems,3,TC-206,M-W-F: 1:00-1:55 PM,18,B86590
+CSE-138B,Introduction to CSE,3,TC-109,T-H: 1:00-2:25 PM,35,J33486
+CSE-332,Foundations of Semiconductors,3,TC-305,T-H: 1:00-2:25 PM,24,K69880
+CSE-430,Bioinformatics in Computer,3,TC-206,Thu: 9:30-11:00 AM,16,B86590
+CSE-439,Special Topics in CSE,3,TC-206,M-W-F: 10:00-10:55 AM,22,J33486
+CSE-330,Digital Logic Circuits,3,TC-305,M-W-F: 9:00-9:55 AM,26,K69880
+CSE-432,Analog Circuits Design,3,TC-309,M-W-F: 2:00-2:55 PM,18,K69880
+CSE-433,Digital Signal Processing,3,TC-206,T-H: 2:00-3:25 PM,18,H99118
+CSE-434,Advanced Electronics Systems,3,TC-213,M-W-F: 1:00-1:55 PM,26,B78880
+CSC-131A,Computers in Society,3,TC-109,M-W-F: 9:00-9:55 AM,28,A52990
+CSC-333B,Computer Arch & Algorithms,3,TC-302,T-H: 11:00-12:25 PM,15,A77587
+CSE-436,Automatic Control and Design,3,TC-305,M-W-F: 10:00-10:55 AM,29,J33486
+CSE-437,Operating Systems,3,TC-303,T-H: 1:00-2:25 PM,17,A77587
+CSC-132A,Introduction to Programming,3,TC-303,M-W-F: 9:00-9:55 AM,21,J33486
+CSC-331,Applications Programming,3,TC-109,T-H: 11:00-12:25 PM,28,H99118
+CSC-335,Internet Programming,3,TC-303,M-W-F: 1:00-1:55 PM,25,B66750
+CSE-138A,Introduction to CSE,3,TC-301,T-H: 1:00-2:25 PM,15,A52990
+CSE-334,Elec Measurement & Design,3,TC-212,T-H: 11:00-12:25 PM,25,H99118
+CSE-438,Advd Logic & Microprocessor,3,TC-213,M-W-F: 11:00-11:55 AM,35,B78880

@@ -1,0 +1,14 @@
+USER_NAME,PASS_WORD,FACULTY_ID,STUDENT_ID
+abrown,america,B66750,
+ajade,tryagain,,A97850
+dangles,tomorrow,A77587,
+hsmith,try,,H10210
+jerica,excellent,,J77896
+jhenry,test,H99118,
+awoods,smart,,A78835
+banderson,birthday,A52990,
+bvalley,see,,B92996
+jking,goodman,K69880,
+sbhalla,india,B86590,
+sjohnson,jermany,J33486,
+ybai,reback,B78880,

@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\NonGenericLINQ\NonGenericLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\NonGenericLINQ\NonGenericLINQ\bin\Debug\NonGenericLINQ.exe
+C:\Book6\Chapter 4\NonGenericLINQ\NonGenericLINQ\bin\Debug\NonGenericLINQ.pdb
+C:\Book6\Chapter 4\NonGenericLINQ\NonGenericLINQ\obj\Debug\NonGenericLINQ.exe
+C:\Book6\Chapter 4\NonGenericLINQ\NonGenericLINQ\obj\Debug\NonGenericLINQ.pdb

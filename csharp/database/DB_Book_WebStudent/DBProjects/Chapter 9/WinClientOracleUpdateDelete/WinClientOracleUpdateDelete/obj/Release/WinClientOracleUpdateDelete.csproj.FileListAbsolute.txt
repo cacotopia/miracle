@@ -1,0 +1,11 @@
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\bin\Release\WinClientOracleUpdateDelete.exe.config
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\bin\Release\WinClientOracleUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\bin\Release\WinClientOracleUpdateDelete.XmlSerializers.dll
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\bin\Release\WinClientOracleUpdateDelete.pdb
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Release\WinClientOracleUpdateDelete.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Release\WinClientOracleUpdateDelete.CourseForm.resources
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Release\WinClientOracleUpdateDelete.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Release\WinClientOracleUpdateDelete.exe
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Release\WinClientOracleUpdateDelete.pdb
+C:\Book6\Chapter 9\WinClientOracleUpdateDelete\WinClientOracleUpdateDelete\obj\Release\WinClientOracleUpdateDelete.XmlSerializers.dll

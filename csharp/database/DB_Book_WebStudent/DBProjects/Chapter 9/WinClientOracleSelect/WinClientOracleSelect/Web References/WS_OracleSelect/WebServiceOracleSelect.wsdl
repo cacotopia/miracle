@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.ieee.org/9780521712354/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.ieee.org/9780521712354/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ieee.org/9780521712354/">
+      <s:element name="GetOracleSelect">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleSelectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOracleSelectResult" type="tns:OracleSelectResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OracleSelectResult">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:OracleSelectBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="FacultyID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FacultyOffice" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FacultyPhone" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FacultyCollege" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FacultyTitle" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FacultyEmail" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="OracleSelectBase">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OracleRequestOK" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="OracleRequestError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetOracleSelectSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleSelectSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOracleSelectSPResult" type="tns:OracleSelectResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleSelectDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleSelectDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOracleSelectDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetOracleSelectSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOracleSelect" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleSelectSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOracleSelectResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleSelectSPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOracleSelectSP" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleSelectSPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOracleSelectSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleSelectDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOracleSelectDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleSelectDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOracleSelectDataSetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceOracleSelectSoap">
+    <wsdl:operation name="GetOracleSelect">
+      <wsdl:input message="tns:GetOracleSelectSoapIn" />
+      <wsdl:output message="tns:GetOracleSelectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleSelectSP">
+      <wsdl:input message="tns:GetOracleSelectSPSoapIn" />
+      <wsdl:output message="tns:GetOracleSelectSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleSelectDataSet">
+      <wsdl:input message="tns:GetOracleSelectDataSetSoapIn" />
+      <wsdl:output message="tns:GetOracleSelectDataSetSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceOracleSelectSoap" type="tns:WebServiceOracleSelectSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetOracleSelect">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetOracleSelect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleSelectSP">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetOracleSelectSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleSelectDataSet">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetOracleSelectDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceOracleSelectSoap12" type="tns:WebServiceOracleSelectSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetOracleSelect">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetOracleSelect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleSelectSP">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetOracleSelectSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleSelectDataSet">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetOracleSelectDataSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceOracleSelect">
+    <wsdl:port name="WebServiceOracleSelectSoap" binding="tns:WebServiceOracleSelectSoap">
+      <soap:address location="http://localhost:1576/WebServiceOracleSelect/WebServiceOracleSelect.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceOracleSelectSoap12" binding="tns:WebServiceOracleSelectSoap12">
+      <soap12:address location="http://localhost:1576/WebServiceOracleSelect/WebServiceOracleSelect.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

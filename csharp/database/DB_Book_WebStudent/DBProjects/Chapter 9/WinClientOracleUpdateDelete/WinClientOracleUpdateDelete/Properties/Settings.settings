@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WinClientOracleUpdateDelete.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WinClientSQLInsert_WS_SQLInsert_WebServiceSQLInsert" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1904/WebServiceSQLInsert/WebServiceSQLInsert.asmx</Value>
+    </Setting>
+    <Setting Name="WinClientOracleUpdateDelete_WS_OracleUD_WebServiceOracleUpdateDelete" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1157/WebServiceOracleUpdateDelete/WebServiceOracleUpdateDelete.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

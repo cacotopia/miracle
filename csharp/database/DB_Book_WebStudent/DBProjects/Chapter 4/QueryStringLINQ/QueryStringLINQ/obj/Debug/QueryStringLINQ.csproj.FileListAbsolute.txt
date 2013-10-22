@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\QueryStringLINQ\QueryStringLINQ\bin\Debug\QueryStringLINQ.exe
+C:\Book6\Chapter 4\QueryStringLINQ\QueryStringLINQ\bin\Debug\QueryStringLINQ.pdb
+C:\Book6\Chapter 4\QueryStringLINQ\QueryStringLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\QueryStringLINQ\QueryStringLINQ\obj\Debug\QueryStringLINQ.exe
+C:\Book6\Chapter 4\QueryStringLINQ\QueryStringLINQ\obj\Debug\QueryStringLINQ.pdb

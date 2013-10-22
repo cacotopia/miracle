@@ -1,0 +1,9 @@
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\bin\Debug\WinClientOracleInsert.exe.config
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\bin\Debug\WinClientOracleInsert.exe
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\bin\Debug\WinClientOracleInsert.pdb
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Debug\WinClientOracleInsert.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Debug\WinClientOracleInsert.CourseForm.resources
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Debug\WinClientOracleInsert.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Debug\WinClientOracleInsert.exe
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Debug\WinClientOracleInsert.pdb

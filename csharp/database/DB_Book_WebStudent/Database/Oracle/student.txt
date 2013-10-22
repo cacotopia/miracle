@@ -1,0 +1,6 @@
+STUDENT_ID,STUDENT_NAME,GPA,CREDITS,MAJOR,SCHOOLYEAR,EMAIL
+A78835,Andrew Woods,3.26,108,Computer Science,Senior,awoods@college.edu
+H10210,Holes Smith,3.87,78,Computer Engineering,Sophomore,hsmith@college.edu
+B92996,Blue Valley,3.52,102,Computer Science,Senior,bvalley@college.edu
+A97850,Ashly Jade,3.57,116,Information System Engineering,Junior,ajade@college.edu
+J77896,Erica Johnson,3.95,127,Computer Science,Senior,ejohnson@college.edu

@@ -1,0 +1,15 @@
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\bin\Debug\OracleInsertWizard.exe.config
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\bin\Debug\OracleInsertWizard.exe
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\bin\Debug\OracleInsertWizard.pdb
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.CourseForm.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.FacultyForm.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.GridForm.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.InsertCourseForm.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.LogInForm.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.Properties.Resources.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.SelectionForm.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.StudentForm.resources
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.csproj.GenerateResource.Cache
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.exe
+C:\Book6\Chapter 6\OracleInsertWizard\OracleInsertWizard\obj\Debug\OracleInsertWizard.pdb

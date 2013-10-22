@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\QueryReflectionLINQ\QueryReflectionLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\QueryReflectionLINQ\QueryReflectionLINQ\bin\Debug\QueryReflectionLINQ.exe
+C:\Book6\Chapter 4\QueryReflectionLINQ\QueryReflectionLINQ\bin\Debug\QueryReflectionLINQ.pdb
+C:\Book6\Chapter 4\QueryReflectionLINQ\QueryReflectionLINQ\obj\Debug\QueryReflectionLINQ.exe
+C:\Book6\Chapter 4\QueryReflectionLINQ\QueryReflectionLINQ\obj\Debug\QueryReflectionLINQ.pdb

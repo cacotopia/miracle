@@ -1,0 +1,9 @@
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\bin\Debug\WinClientSQLInsert.exe.config
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\bin\Debug\WinClientSQLInsert.exe
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\bin\Debug\WinClientSQLInsert.pdb
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\obj\Debug\WinClientSQLInsert.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\obj\Debug\WinClientSQLInsert.CourseForm.resources
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\obj\Debug\WinClientSQLInsert.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\obj\Debug\WinClientSQLInsert.exe
+C:\Book6\Chapter 9\WinClientSQLInsert\WinClientSQLInsert\obj\Debug\WinClientSQLInsert.pdb

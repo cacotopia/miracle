@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="CopyToOutputDirectory" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <edmx:ReverseEngineer />
+    <edmx:Diagrams ><Diagram Name="EDModel"><EntityTypeShape EntityType="CSE_DEPTModel.Course" PointX="0.75" PointY="3.625" Width="1.5" Height="2.5263069661458335" IsExpanded="true" /><EntityTypeShape EntityType="CSE_DEPTModel.Faculty" PointX="0.875" PointY="0.5" Width="1.5" Height="2.7158007812499996" IsExpanded="true" /><EntityTypeShape EntityType="CSE_DEPTModel.LogIn" PointX="5.375" PointY="0.5" Width="1.5" Height="1.7683317057291665" IsExpanded="true" /><EntityTypeShape EntityType="CSE_DEPTModel.Student" PointX="6.25" PointY="3" Width="1.5" Height="2.7158007812500005" IsExpanded="true" /><EntityTypeShape EntityType="CSE_DEPTModel.StudentCourse" PointX="2.75" PointY="1.75" Width="1.5" Height="1.9578255208333331" IsExpanded="true" /><AssociationConnector Association="CSE_DEPTModel.FK_Course_Faculty" ManuallyRouted="false"><ConnectorPoint PointX="1.5625" PointY="3.2158007812499996" /><ConnectorPoint PointX="1.5625" PointY="3.625" /></AssociationConnector><AssociationConnector Association="CSE_DEPTModel.FK_StudentCourse_Course" ManuallyRouted="false"><ConnectorPoint PointX="2.25" PointY="5.0476918538411457" /><ConnectorPoint PointX="3.320313125" PointY="5.0476918538411457" /><ConnectorPoint PointX="3.320313125" PointY="3.7078255208333331" /></AssociationConnector><AssociationConnector Association="CSE_DEPTModel.FK_LogIn_Faculty" ManuallyRouted="false"><ConnectorPoint PointX="2.375" PointY="1.09375" /><ConnectorPoint PointX="5.375" PointY="1.09375" /></AssociationConnector><AssociationConnector Association="CSE_DEPTModel.FK_LogIn_Student" ManuallyRouted="false"><ConnectorPoint PointX="6.5625" PointY="3" /><ConnectorPoint PointX="6.5625" PointY="2.2683317057291665" /></AssociationConnector><AssociationConnector Association="CSE_DEPTModel.FK_StudentCourse_Student" ManuallyRouted="false"><ConnectorPoint PointX="6.25" PointY="3.3539127604166667" /><ConnectorPoint PointX="4.25" PointY="3.3539127604166667" /></AssociationConnector></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+  <edmx:Runtime>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CSE_DEPTModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="EDModelEntitiesConnString">
+          <EntitySet Name="Course" EntityType="CSE_DEPTModel.Course" />
+          <EntitySet Name="Faculty" EntityType="CSE_DEPTModel.Faculty" />
+          <EntitySet Name="LogIn" EntityType="CSE_DEPTModel.LogIn" />
+          <EntitySet Name="Student" EntityType="CSE_DEPTModel.Student" />
+          <EntitySet Name="StudentCourse" EntityType="CSE_DEPTModel.StudentCourse" />
+          <AssociationSet Name="FK_Course_Faculty" Association="CSE_DEPTModel.FK_Course_Faculty">
+            <End Role="Faculty" EntitySet="Faculty" />
+            <End Role="Course" EntitySet="Course" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentCourse_Course" Association="CSE_DEPTModel.FK_StudentCourse_Course">
+            <End Role="Course" EntitySet="Course" />
+            <End Role="StudentCourse" EntitySet="StudentCourse" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LogIn_Faculty" Association="CSE_DEPTModel.FK_LogIn_Faculty">
+            <End Role="Faculty" EntitySet="Faculty" />
+            <End Role="LogIn" EntitySet="LogIn" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LogIn_Student" Association="CSE_DEPTModel.FK_LogIn_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="LogIn" EntitySet="LogIn" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentCourse_Student" Association="CSE_DEPTModel.FK_StudentCourse_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="StudentCourse" EntitySet="StudentCourse" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="course_id" />
+          </Key>
+          <Property Name="course_id" Type="String" Nullable="false" MaxLength="50" />
+          <Property Name="course1" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="credit" Type="Double" />
+          <Property Name="classroom" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="schedule" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="enrollment" Type="Int32" />
+          <NavigationProperty Name="Faculty" Relationship="CSE_DEPTModel.FK_Course_Faculty" FromRole="Course" ToRole="Faculty" />
+          <NavigationProperty Name="StudentCourse" Relationship="CSE_DEPTModel.FK_StudentCourse_Course" FromRole="Course" ToRole="StudentCourse" />
+        </EntityType>
+        <EntityType Name="Faculty">
+          <Key>
+            <PropertyRef Name="faculty_id" />
+          </Key>
+          <Property Name="faculty_id" Type="String" Nullable="false" MaxLength="50" />
+          <Property Name="faculty_name" Type="String" MaxLength="50" />
+          <Property Name="office" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="phone" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="college" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="title" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="2147483647" Unicode="false" />
+          <NavigationProperty Name="Course" Relationship="CSE_DEPTModel.FK_Course_Faculty" FromRole="Faculty" ToRole="Course" />
+          <NavigationProperty Name="LogIn" Relationship="CSE_DEPTModel.FK_LogIn_Faculty" FromRole="Faculty" ToRole="LogIn" />
+        </EntityType>
+        <EntityType Name="LogIn">
+          <Key>
+            <PropertyRef Name="user_name" />
+          </Key>
+          <Property Name="user_name" Type="String" Nullable="false" MaxLength="50" />
+          <Property Name="pass_word" Type="String" MaxLength="50" />
+          <NavigationProperty Name="Faculty" Relationship="CSE_DEPTModel.FK_LogIn_Faculty" FromRole="LogIn" ToRole="Faculty" />
+          <NavigationProperty Name="Student" Relationship="CSE_DEPTModel.FK_LogIn_Student" FromRole="LogIn" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="student_id" />
+          </Key>
+          <Property Name="student_id" Type="String" Nullable="false" MaxLength="50" />
+          <Property Name="student_name" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="gpa" Type="Double" />
+          <Property Name="credits" Type="Int32" />
+          <Property Name="major" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="schoolYear" Type="String" MaxLength="2147483647" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="2147483647" Unicode="false" />
+          <NavigationProperty Name="LogIn" Relationship="CSE_DEPTModel.FK_LogIn_Student" FromRole="Student" ToRole="LogIn" />
+          <NavigationProperty Name="StudentCourse" Relationship="CSE_DEPTModel.FK_StudentCourse_Student" FromRole="Student" ToRole="StudentCourse" />
+        </EntityType>
+        <EntityType Name="StudentCourse">
+          <Key>
+            <PropertyRef Name="s_course_id" />
+          </Key>
+          <Property Name="s_course_id" Type="Int32" Nullable="false" />
+          <Property Name="credit" Type="Int32" />
+          <Property Name="major" Type="String" MaxLength="2147483647" Unicode="false" />
+          <NavigationProperty Name="Course" Relationship="CSE_DEPTModel.FK_StudentCourse_Course" FromRole="StudentCourse" ToRole="Course" />
+          <NavigationProperty Name="Student" Relationship="CSE_DEPTModel.FK_StudentCourse_Student" FromRole="StudentCourse" ToRole="Student" />
+        </EntityType>
+        <Association Name="FK_Course_Faculty">
+          <End Role="Faculty" Type="CSE_DEPTModel.Faculty" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Course" Type="CSE_DEPTModel.Course" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_StudentCourse_Course">
+          <End Role="Course" Type="CSE_DEPTModel.Course" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StudentCourse" Type="CSE_DEPTModel.StudentCourse" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_LogIn_Faculty">
+          <End Role="Faculty" Type="CSE_DEPTModel.Faculty" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LogIn" Type="CSE_DEPTModel.LogIn" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_LogIn_Student">
+          <End Role="Student" Type="CSE_DEPTModel.Student" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LogIn" Type="CSE_DEPTModel.LogIn" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_StudentCourse_Student">
+          <End Role="Student" Type="CSE_DEPTModel.Student" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StudentCourse" Type="CSE_DEPTModel.StudentCourse" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CSE_DEPTModel.Store" Alias="Self" ProviderManifestToken="09.00.3042" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="dbo">
+          <EntitySet Name="Course" EntityType="CSE_DEPTModel.Store.Course" />
+          <EntitySet Name="Faculty" EntityType="CSE_DEPTModel.Store.Faculty" />
+          <EntitySet Name="LogIn" EntityType="CSE_DEPTModel.Store.LogIn" />
+          <EntitySet Name="Student" EntityType="CSE_DEPTModel.Store.Student" />
+          <EntitySet Name="StudentCourse" EntityType="CSE_DEPTModel.Store.StudentCourse" />
+          <AssociationSet Name="FK_Course_Faculty" Association="CSE_DEPTModel.Store.FK_Course_Faculty">
+            <End Role="Faculty" EntitySet="Faculty" />
+            <End Role="Course" EntitySet="Course" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LogIn_Faculty" Association="CSE_DEPTModel.Store.FK_LogIn_Faculty">
+            <End Role="Faculty" EntitySet="Faculty" />
+            <End Role="LogIn" EntitySet="LogIn" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LogIn_Student" Association="CSE_DEPTModel.Store.FK_LogIn_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="LogIn" EntitySet="LogIn" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentCourse_Course" Association="CSE_DEPTModel.Store.FK_StudentCourse_Course">
+            <End Role="Course" EntitySet="Course" />
+            <End Role="StudentCourse" EntitySet="StudentCourse" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentCourse_Student" Association="CSE_DEPTModel.Store.FK_StudentCourse_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="StudentCourse" EntitySet="StudentCourse" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="course_id" />
+          </Key>
+          <Property Name="course_id" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="course" Type="text" />
+          <Property Name="credit" Type="float" />
+          <Property Name="classroom" Type="text" />
+          <Property Name="schedule" Type="text" />
+          <Property Name="enrollment" Type="int" />
+          <Property Name="faculty_id" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Faculty">
+          <Key>
+            <PropertyRef Name="faculty_id" />
+          </Key>
+          <Property Name="faculty_id" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="faculty_name" Type="nvarchar" MaxLength="50" />
+          <Property Name="office" Type="text" />
+          <Property Name="phone" Type="text" />
+          <Property Name="college" Type="text" />
+          <Property Name="title" Type="text" />
+          <Property Name="email" Type="text" />
+        </EntityType>
+        <EntityType Name="LogIn">
+          <Key>
+            <PropertyRef Name="user_name" />
+          </Key>
+          <Property Name="user_name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="pass_word" Type="nvarchar" MaxLength="50" />
+          <Property Name="faculty_id" Type="nvarchar" MaxLength="50" />
+          <Property Name="student_id" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="student_id" />
+          </Key>
+          <Property Name="student_id" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="student_name" Type="text" />
+          <Property Name="gpa" Type="float" />
+          <Property Name="credits" Type="int" />
+          <Property Name="major" Type="text" />
+          <Property Name="schoolYear" Type="text" />
+          <Property Name="email" Type="text" />
+        </EntityType>
+        <EntityType Name="StudentCourse">
+          <Key>
+            <PropertyRef Name="s_course_id" />
+          </Key>
+          <Property Name="s_course_id" Type="int" Nullable="false" />
+          <Property Name="student_id" Type="nvarchar" MaxLength="50" />
+          <Property Name="course_id" Type="nvarchar" MaxLength="50" />
+          <Property Name="credit" Type="int" />
+          <Property Name="major" Type="text" />
+        </EntityType>
+        <Association Name="FK_Course_Faculty">
+          <End Role="Faculty" Type="CSE_DEPTModel.Store.Faculty" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Course" Type="CSE_DEPTModel.Store.Course" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculty">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="Course">
+              <PropertyRef Name="faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LogIn_Faculty">
+          <End Role="Faculty" Type="CSE_DEPTModel.Store.Faculty" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LogIn" Type="CSE_DEPTModel.Store.LogIn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculty">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="LogIn">
+              <PropertyRef Name="faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LogIn_Student">
+          <End Role="Student" Type="CSE_DEPTModel.Store.Student" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LogIn" Type="CSE_DEPTModel.Store.LogIn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="student_id" />
+            </Principal>
+            <Dependent Role="LogIn">
+              <PropertyRef Name="student_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentCourse_Course">
+          <End Role="Course" Type="CSE_DEPTModel.Store.Course" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StudentCourse" Type="CSE_DEPTModel.Store.StudentCourse" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Course">
+              <PropertyRef Name="course_id" />
+            </Principal>
+            <Dependent Role="StudentCourse">
+              <PropertyRef Name="course_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentCourse_Student">
+          <End Role="Student" Type="CSE_DEPTModel.Store.Student" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StudentCourse" Type="CSE_DEPTModel.Store.StudentCourse" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="student_id" />
+            </Principal>
+            <Dependent Role="StudentCourse">
+              <PropertyRef Name="student_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="StudentAndCourse" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="StudentName" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="StudentCourseInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="StudentID" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="StudentCourseINTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="stdName" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="StudentInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="StudentName" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="StudentInfoID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="sName" Type="varchar" Mode="In" />
+          <Parameter Name="sID" Type="varchar" Mode="InOut" />
+        </Function>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="dbo" CdmEntityContainer="EDModelEntitiesConnString">
+          <EntitySetMapping Name="Course">
+            <EntityTypeMapping TypeName="IsTypeOf(CSE_DEPTModel.Course)">
+              <MappingFragment StoreEntitySet="Course">
+                <ScalarProperty Name="course_id" ColumnName="course_id" />
+                <ScalarProperty Name="course1" ColumnName="course" />
+                <ScalarProperty Name="credit" ColumnName="credit" />
+                <ScalarProperty Name="classroom" ColumnName="classroom" />
+                <ScalarProperty Name="schedule" ColumnName="schedule" />
+                <ScalarProperty Name="enrollment" ColumnName="enrollment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Faculty">
+            <EntityTypeMapping TypeName="IsTypeOf(CSE_DEPTModel.Faculty)">
+              <MappingFragment StoreEntitySet="Faculty">
+                <ScalarProperty Name="faculty_id" ColumnName="faculty_id" />
+                <ScalarProperty Name="faculty_name" ColumnName="faculty_name" />
+                <ScalarProperty Name="office" ColumnName="office" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="college" ColumnName="college" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="email" ColumnName="email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LogIn">
+            <EntityTypeMapping TypeName="IsTypeOf(CSE_DEPTModel.LogIn)">
+              <MappingFragment StoreEntitySet="LogIn">
+                <ScalarProperty Name="user_name" ColumnName="user_name" />
+                <ScalarProperty Name="pass_word" ColumnName="pass_word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Student">
+            <EntityTypeMapping TypeName="IsTypeOf(CSE_DEPTModel.Student)">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="student_id" ColumnName="student_id" />
+                <ScalarProperty Name="student_name" ColumnName="student_name" />
+                <ScalarProperty Name="gpa" ColumnName="gpa" />
+                <ScalarProperty Name="credits" ColumnName="credits" />
+                <ScalarProperty Name="major" ColumnName="major" />
+                <ScalarProperty Name="schoolYear" ColumnName="schoolYear" />
+                <ScalarProperty Name="email" ColumnName="email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentCourse">
+            <EntityTypeMapping TypeName="IsTypeOf(CSE_DEPTModel.StudentCourse)">
+              <MappingFragment StoreEntitySet="StudentCourse">
+                <ScalarProperty Name="s_course_id" ColumnName="s_course_id" />
+                <ScalarProperty Name="credit" ColumnName="credit" />
+                <ScalarProperty Name="major" ColumnName="major" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK_Course_Faculty" TypeName="CSE_DEPTModel.FK_Course_Faculty" StoreEntitySet="Course">
+            <EndProperty Name="Faculty">
+              <ScalarProperty Name="faculty_id" ColumnName="faculty_id" />
+            </EndProperty>
+            <EndProperty Name="Course">
+              <ScalarProperty Name="course_id" ColumnName="course_id" />
+            </EndProperty>
+            <Condition ColumnName="faculty_id" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_StudentCourse_Course" TypeName="CSE_DEPTModel.FK_StudentCourse_Course" StoreEntitySet="StudentCourse">
+            <EndProperty Name="Course">
+              <ScalarProperty Name="course_id" ColumnName="course_id" />
+            </EndProperty>
+            <EndProperty Name="StudentCourse">
+              <ScalarProperty Name="s_course_id" ColumnName="s_course_id" />
+            </EndProperty>
+            <Condition ColumnName="course_id" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_LogIn_Faculty" TypeName="CSE_DEPTModel.FK_LogIn_Faculty" StoreEntitySet="LogIn">
+            <EndProperty Name="Faculty">
+              <ScalarProperty Name="faculty_id" ColumnName="faculty_id" />
+            </EndProperty>
+            <EndProperty Name="LogIn">
+              <ScalarProperty Name="user_name" ColumnName="user_name" />
+            </EndProperty>
+            <Condition ColumnName="faculty_id" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_LogIn_Student" TypeName="CSE_DEPTModel.FK_LogIn_Student" StoreEntitySet="LogIn">
+            <EndProperty Name="Student">
+              <ScalarProperty Name="student_id" ColumnName="student_id" />
+            </EndProperty>
+            <EndProperty Name="LogIn">
+              <ScalarProperty Name="user_name" ColumnName="user_name" />
+            </EndProperty>
+            <Condition ColumnName="student_id" IsNull="false" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_StudentCourse_Student" TypeName="CSE_DEPTModel.FK_StudentCourse_Student" StoreEntitySet="StudentCourse">
+            <EndProperty Name="Student">
+              <ScalarProperty Name="student_id" ColumnName="student_id" />
+            </EndProperty>
+            <EndProperty Name="StudentCourse">
+              <ScalarProperty Name="s_course_id" ColumnName="s_course_id" />
+            </EndProperty>
+            <Condition ColumnName="student_id" IsNull="false" />
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+</edmx:Edmx>

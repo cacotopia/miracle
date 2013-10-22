@@ -1,0 +1,15 @@
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\bin\Debug\SQLUpdateDeleteRTObject.exe.config
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\bin\Debug\SQLUpdateDeleteRTObject.exe
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\bin\Debug\SQLUpdateDeleteRTObject.pdb
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.CourseForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.FacultyForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.InsertFacultyForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.LogInForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.Properties.Resources.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.SelectionForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.SPForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.StudentForm.resources
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.csproj.GenerateResource.Cache
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.exe
+C:\Book6\Chapter 7\SQLUpdateDeleteRTObject\SQLUpdateDeleteRTObject\obj\Debug\SQLUpdateDeleteRTObject.pdb

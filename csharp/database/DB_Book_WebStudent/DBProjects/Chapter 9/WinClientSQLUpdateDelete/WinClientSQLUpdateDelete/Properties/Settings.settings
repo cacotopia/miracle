@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WinClientSQLUpdateDelete.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WinClientSQLInsert_WS_SQLInsert_WebServiceSQLInsert" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1904/WebServiceSQLInsert/WebServiceSQLInsert.asmx</Value>
+    </Setting>
+    <Setting Name="WinClientSQLUpdateDelete_WS_SQLUpdateDelete_WebServiceSQLUpdateDelete" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1095/WebServiceSQLUpdateDelete/WebServiceSQLUpdateDelete.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

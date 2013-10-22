@@ -1,0 +1,11 @@
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\bin\Release\WinClientSQLSelect.exe.config
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\bin\Release\WinClientSQLSelect.exe
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\bin\Release\WinClientSQLSelect.XmlSerializers.dll
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\bin\Release\WinClientSQLSelect.pdb
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Release\WinClientSQLSelect.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Release\WinClientSQLSelect.FacultyForm.resources
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Release\WinClientSQLSelect.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Release\WinClientSQLSelect.exe
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Release\WinClientSQLSelect.pdb
+C:\Book6\Chapter 9\WinClientSQLSelect\WinClientSQLSelect\obj\Release\WinClientSQLSelect.XmlSerializers.dll

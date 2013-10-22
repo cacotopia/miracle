@@ -1,0 +1,11 @@
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\bin\Release\WinClientOracleInsert.exe.config
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\bin\Release\WinClientOracleInsert.exe
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\bin\Release\WinClientOracleInsert.XmlSerializers.dll
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\bin\Release\WinClientOracleInsert.pdb
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Release\WinClientOracleInsert.Properties.Resources.resources
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Release\WinClientOracleInsert.CourseForm.resources
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Release\WinClientOracleInsert.csproj.GenerateResource.Cache
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Release\WinClientOracleInsert.exe
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Release\WinClientOracleInsert.pdb
+C:\Book6\Chapter 9\WinClientOracleInsert\WinClientOracleInsert\obj\Release\WinClientOracleInsert.XmlSerializers.dll

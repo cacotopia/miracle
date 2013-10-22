@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.ieee.org/9780521712354/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.ieee.org/9780521712354/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ieee.org/9780521712354/">
+      <s:element name="OracleUpdateSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Enroll" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OracleUpdateSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OracleUpdateSPResult" type="tns:OracleBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OracleBase">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OracleOK" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="OracleError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FacultyID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Course" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Schedule" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Classroom" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Credit" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Enrollment" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetOracleCourse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleCourseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOracleCourseResult" type="tns:OracleBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleCourseDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOracleCourseDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOracleCourseDetailResult" type="tns:OracleBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OracleDeleteSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CourseID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OracleDeleteSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OracleDeleteSPResult" type="tns:OracleBase" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="OracleUpdateSPSoapIn">
+    <wsdl:part name="parameters" element="tns:OracleUpdateSP" />
+  </wsdl:message>
+  <wsdl:message name="OracleUpdateSPSoapOut">
+    <wsdl:part name="parameters" element="tns:OracleUpdateSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleCourseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOracleCourse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleCourseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOracleCourseResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleCourseDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOracleCourseDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetOracleCourseDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOracleCourseDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="OracleDeleteSPSoapIn">
+    <wsdl:part name="parameters" element="tns:OracleDeleteSP" />
+  </wsdl:message>
+  <wsdl:message name="OracleDeleteSPSoapOut">
+    <wsdl:part name="parameters" element="tns:OracleDeleteSPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceOracleUpdateDeleteSoap">
+    <wsdl:operation name="OracleUpdateSP">
+      <wsdl:input message="tns:OracleUpdateSPSoapIn" />
+      <wsdl:output message="tns:OracleUpdateSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleCourse">
+      <wsdl:input message="tns:GetOracleCourseSoapIn" />
+      <wsdl:output message="tns:GetOracleCourseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleCourseDetail">
+      <wsdl:input message="tns:GetOracleCourseDetailSoapIn" />
+      <wsdl:output message="tns:GetOracleCourseDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OracleDeleteSP">
+      <wsdl:input message="tns:OracleDeleteSPSoapIn" />
+      <wsdl:output message="tns:OracleDeleteSPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceOracleUpdateDeleteSoap" type="tns:WebServiceOracleUpdateDeleteSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="OracleUpdateSP">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/OracleUpdateSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleCourse">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetOracleCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleCourseDetail">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/GetOracleCourseDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OracleDeleteSP">
+      <soap:operation soapAction="http://www.ieee.org/9780521712354/OracleDeleteSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceOracleUpdateDeleteSoap12" type="tns:WebServiceOracleUpdateDeleteSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="OracleUpdateSP">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/OracleUpdateSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleCourse">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetOracleCourse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOracleCourseDetail">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/GetOracleCourseDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OracleDeleteSP">
+      <soap12:operation soapAction="http://www.ieee.org/9780521712354/OracleDeleteSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceOracleUpdateDelete">
+    <wsdl:port name="WebServiceOracleUpdateDeleteSoap" binding="tns:WebServiceOracleUpdateDeleteSoap">
+      <soap:address location="http://localhost:1157/WebServiceOracleUpdateDelete/WebServiceOracleUpdateDelete.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceOracleUpdateDeleteSoap12" binding="tns:WebServiceOracleUpdateDeleteSoap12">
+      <soap12:address location="http://localhost:1157/WebServiceOracleUpdateDelete/WebServiceOracleUpdateDelete.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

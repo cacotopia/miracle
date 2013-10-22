@@ -1,0 +1,5 @@
+C:\Book6\Chapter 4\DataRowFieldLINQ\DataRowFieldLINQ\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\DataRowFieldLINQ\DataRowFieldLINQ\bin\Release\DataRowFieldLINQ.exe
+C:\Book6\Chapter 4\DataRowFieldLINQ\DataRowFieldLINQ\bin\Release\DataRowFieldLINQ.pdb
+C:\Book6\Chapter 4\DataRowFieldLINQ\DataRowFieldLINQ\obj\Release\DataRowFieldLINQ.exe
+C:\Book6\Chapter 4\DataRowFieldLINQ\DataRowFieldLINQ\obj\Release\DataRowFieldLINQ.pdb

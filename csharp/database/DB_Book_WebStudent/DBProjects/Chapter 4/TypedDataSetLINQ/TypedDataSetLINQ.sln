@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypedDataSetLINQ", "TypedDataSetLINQ\TypedDataSetLINQ.csproj", "{045BBFD5-EE11-44D5-BB55-6357A65EB56C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{045BBFD5-EE11-44D5-BB55-6357A65EB56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045BBFD5-EE11-44D5-BB55-6357A65EB56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045BBFD5-EE11-44D5-BB55-6357A65EB56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045BBFD5-EE11-44D5-BB55-6357A65EB56C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

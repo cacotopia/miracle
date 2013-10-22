@@ -1,0 +1,17 @@
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.Properties.Resources.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.csproj.GenerateResource.Cache
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\bin\Debug\SQLSelectRTObject.exe
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\bin\Debug\SQLSelectRTObject.pdb
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.exe
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.pdb
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\bin\Debug\SQLSelectRTObject.exe.config
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.LogInForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.CourseForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.FacultyForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.SelectionForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.StudentForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.SPForm.resources
+F:\GitHub\miracle\miracle\csharp\database\DB_Book_WebStudent\DBProjects\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\bin\Debug\SQLSelectRTObject.exe.config
+F:\GitHub\miracle\miracle\csharp\database\DB_Book_WebStudent\DBProjects\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.exe
+F:\GitHub\miracle\miracle\csharp\database\DB_Book_WebStudent\DBProjects\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Debug\SQLSelectRTObject.pdb

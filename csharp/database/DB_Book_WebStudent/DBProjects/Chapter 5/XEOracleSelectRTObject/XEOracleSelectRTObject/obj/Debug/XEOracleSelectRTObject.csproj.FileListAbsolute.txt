@@ -1,0 +1,12 @@
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.CourseForm.resources
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.FacultyForm.resources
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.LogInForm.resources
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.Properties.Resources.resources
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.SelectionForm.resources
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.StudentForm.resources
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.csproj.GenerateResource.Cache
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\bin\Debug\XEOracleSelectRTObject.exe
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\bin\Debug\XEOracleSelectRTObject.pdb
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.exe
+C:\Book6\Chapter 5\XEOracleSelectRTObject\XEOracleSelectRTObject\obj\Debug\XEOracleSelectRTObject.pdb

@@ -1,0 +1,13 @@
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\bin\Release\AccessInsertRTObject.exe.config
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\bin\Release\AccessInsertRTObject.exe
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\bin\Release\AccessInsertRTObject.pdb
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.CourseForm.resources
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.FacultyForm.resources
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.InsertFacultyForm.resources
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.LogInForm.resources
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.Properties.Resources.resources
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.SelectionForm.resources
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.csproj.GenerateResource.Cache
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.exe
+C:\Book6\Chapter 6\AccessInsertRTObject\AccessInsertRTObject\obj\Release\AccessInsertRTObject.pdb

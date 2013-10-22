@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CSE_DEPT" Class="CSE_DEPTDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=&quot;C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\CSE_DEPT.mdf&quot;;Integrated Security=True;Connect Timeout=30;User Instance=False" SettingsObjectName="AccessInsertRTObject.Properties.Settings" SettingsPropertyName="CSE_DEPTConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.LogIn" Member="LogIns">
+    <Type Name="LogIn">
+      <Column Name="user_name" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pass_word" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="faculty_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="student_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Faculty_LogIn" Member="Faculty" ThisKey="faculty_id" Type="Faculty" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="Student_LogIn" Member="Student" ThisKey="student_id" Type="Student" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Faculty" Member="Faculties">
+    <Type Name="Faculty">
+      <Column Name="faculty_id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="faculty_name" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="office" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="phone" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="college" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="title" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="email" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Faculty_LogIn" Member="LogIns" OtherKey="faculty_id" Type="LogIn" />
+      <Association Name="Faculty_Course" Member="Courses" OtherKey="faculty_id" Type="Course" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Course" Member="Courses">
+    <Type Name="Course">
+      <Column Name="course_id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="course" Member="course1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="credit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="classroom" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="schedule" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="enrollment" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="faculty_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Course_StudentCourse" Member="StudentCourses" OtherKey="course_id" Type="StudentCourse" />
+      <Association Name="Faculty_Course" Member="Faculty" ThisKey="faculty_id" Type="Faculty" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="student_id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="student_name" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="gpa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="credits" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="major" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="schoolYear" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="email" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Student_LogIn" Member="LogIns" OtherKey="student_id" Type="LogIn" />
+      <Association Name="Student_StudentCourse" Member="StudentCourses" OtherKey="student_id" Type="StudentCourse" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StudentCourse" Member="StudentCourses">
+    <Type Name="StudentCourse">
+      <Column Name="s_course_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="student_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="course_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="major" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Course_StudentCourse" Member="Course" ThisKey="course_id" Type="Course" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="Student_StudentCourse" Member="Student" ThisKey="student_id" Type="Student" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+</Database>

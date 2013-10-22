@@ -1,0 +1,9 @@
+FACULTY_ID,FACULTY_NAME,OFFICE,PHONE,COLLEGE,TITLE,EMAIL
+B78880,Ying Bai,MTC-211,750-378-1148,Florida Atlantic University,Associate Professor,ybai@college.edu
+B86590,Satish Bhalla,MTC-214,750-378-1061,University of Notre Dame,Associate Professor,sbhalla@college.edu
+K69880,Jenney King,MTC-324,750-378-1230,East Florida University,Professor,jking@college.edu
+A52990,Black Anderson,MTC-218,750-378-9987,Virginia Tech,Professor,banderson@college.edu
+H99118,Jeff Henry,MTC-336,750-330-8650,Ohio State University,Associate Professor,jhenry@college.edu
+A77587,Debby Angles,MTC-320,750-330-2276,University of Chicago,Associate Professor,dangles@college.edu
+B66750,Alice Brown,MTC-257,750-330-6650,University of Florida,Assistant Professor,abrown@college.edu
+J33486,Steve Johnson,MTC-118,750-330-1116,Harvard University,Distinguished Professor,sjohnson@college.edu

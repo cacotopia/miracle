@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
-int main()
+//namespace  Miracle
+//{
+
+//}
+ int main()
 {
     cout<<"Hello World.\n";
 }

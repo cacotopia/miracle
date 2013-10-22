@@ -1,0 +1,14 @@
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards_Project.LogInForm.resources
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards_Project.Properties.Resources.resources
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards Project.csproj.GenerateResource.Cache
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\bin\Debug\SampleWizards Project.exe.config
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\bin\Debug\SampleWizards Project.exe
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\bin\Debug\SampleWizards Project.pdb
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards Project.exe
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards Project.pdb
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards_Project.SelectionForm.resources
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards_Project.CourseForm.resources
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards_Project.FacultyForm.resources
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\obj\Debug\SampleWizards_Project.StudentForm.resources
+C:\Book6\Chapter 5\SampleWizards Solution\SampleWizards Project\bin\Debug\CSE_DEPT.accdb

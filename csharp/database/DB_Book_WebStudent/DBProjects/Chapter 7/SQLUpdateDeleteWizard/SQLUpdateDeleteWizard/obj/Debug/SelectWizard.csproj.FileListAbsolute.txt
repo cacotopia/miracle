@@ -1,0 +1,14 @@
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.CourseForm.resources
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.FacultyForm.resources
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.GridForm.resources
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.LogInForm.resources
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.Properties.Resources.resources
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.SelectionForm.resources
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.StudentForm.resources
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.csproj.GenerateResource.Cache
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\bin\Debug\SelectWizard.exe.config
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\bin\Debug\SelectWizard.exe
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\bin\Debug\SelectWizard.pdb
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.exe
+C:\Book6\Chapter 5\SelectWizard\SelectWizard\obj\Debug\SelectWizard.pdb

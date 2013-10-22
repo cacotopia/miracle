@@ -1,0 +1,15 @@
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\bin\Debug\AccessUpdateDeleteSP.exe.config
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\bin\Debug\AccessUpdateDeleteSP.exe
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\bin\Debug\AccessUpdateDeleteSP.pdb
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.CourseForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.FacultyForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.InsertFacultyForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.LogInForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.Properties.Resources.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.SelectionForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.SPForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.StudentForm.resources
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.csproj.GenerateResource.Cache
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.exe
+C:\Book6\Chapter 7\AccessUpdateDeleteSP\AccessUpdateDeleteSP\obj\Debug\AccessUpdateDeleteSP.pdb

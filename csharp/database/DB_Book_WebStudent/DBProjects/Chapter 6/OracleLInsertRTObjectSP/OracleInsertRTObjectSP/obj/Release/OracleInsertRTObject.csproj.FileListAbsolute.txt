@@ -1,0 +1,13 @@
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\bin\Release\OracleInsertRTObject.exe.config
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\bin\Release\OracleInsertRTObject.exe
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\bin\Release\OracleInsertRTObject.pdb
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.CourseForm.resources
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.FacultyForm.resources
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.InsertFacultyForm.resources
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.LogInForm.resources
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.Properties.Resources.resources
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.SelectionForm.resources
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.csproj.GenerateResource.Cache
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.exe
+C:\Book6\Chapter 6\OracleLInsertRTObject\OracleInsertRTObject\obj\Release\OracleInsertRTObject.pdb

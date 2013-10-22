@@ -1,0 +1,14 @@
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\bin\Release\SQLSelectRTObject.exe.config
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\bin\Release\SQLSelectRTObject.exe
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\bin\Release\SQLSelectRTObject.pdb
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\ResolveAssemblyReference.cache
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.CourseForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.FacultyForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.LogInForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.Properties.Resources.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.SelectionForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.SPForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.StudentForm.resources
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.csproj.GenerateResource.Cache
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.exe
+C:\Book6\Chapter 5\SQLSelectRTObject\SQLSelectRTObject\obj\Release\SQLSelectRTObject.pdb

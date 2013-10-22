@@ -1,0 +1,8 @@
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\bin\Debug\QueryLINQSQL.exe
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\bin\Debug\QueryLINQSQL.pdb
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\obj\Debug\ResolveAssemblyReference.cache
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\obj\Debug\QueryLINQSQL.exe
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\obj\Debug\QueryLINQSQL.pdb
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\bin\Debug\CSE_DEPT.mdf
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\bin\Debug\CSE_DEPT_log.ldf
+C:\Book6\Chapter 4\QueryLINQSQL\QueryLINQSQL\bin\Debug\QueryLINQSQL.exe.config
