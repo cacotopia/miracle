@@ -1,0 +1,7 @@
+F:\GitHub\miracle\miracle\csharp\treeviewadv\UnitTests\bin\Debug\Aga.Controls.UnitTests.dll
+F:\GitHub\miracle\miracle\csharp\treeviewadv\UnitTests\bin\Debug\Aga.Controls.UnitTests.pdb
+F:\GitHub\miracle\miracle\csharp\treeviewadv\UnitTests\bin\Debug\Aga.Controls.dll
+F:\GitHub\miracle\miracle\csharp\treeviewadv\UnitTests\bin\Debug\Aga.Controls.pdb
+F:\GitHub\miracle\miracle\csharp\treeviewadv\UnitTests\obj\Debug\ResolveAssemblyReference.cache
+F:\GitHub\miracle\miracle\csharp\treeviewadv\UnitTests\obj\Debug\Aga.Controls.UnitTests.dll
+F:\GitHub\miracle\miracle\csharp\treeviewadv\UnitTests\obj\Debug\Aga.Controls.UnitTests.pdb

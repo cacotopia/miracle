@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="C197EFF6-AD4E-4E44-8601-D101E0736144" ModuleId="SampleApp" />
+  <Module PersistentId="E73BB233-D88B-44A7-A98F-D71EE158381D" ModuleId="Aga.Controls" />
+</Modules>
