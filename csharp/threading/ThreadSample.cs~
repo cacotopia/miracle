@@ -1,0 +1,28 @@
+//简单的多线程编程实例
+using System;
+using Systerm.Collections.Generic;
+using System.Text;
+using System.Threading;
+
+namespace ThreadSample{
+
+	public class EatAppleSmp
+	{
+       public EatAppleSmp()
+       {
+
+       }
+       static void Main()
+       {
+       	EatAppleSAmp mainstart = new EatAppleSmp();
+       }
+	}
+	public class Dish 
+	{
+		private const int m_MAX_APPLE_COUNT =5;
+		private EatAppleSmp oEAP;
+		private int m_EnableNum ;
+		private int n=0;
+		
+	}
+}
